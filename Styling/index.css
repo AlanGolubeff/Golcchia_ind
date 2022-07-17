@@ -7,10 +7,9 @@
 
 @media screen and (min-width: 992px) {
 
-    .header {
+    .navbar {
         display: flex;
-        flex-direction: row;
-        background-color: black;
+        justify-content: space-evenly;
     }
 
     h1 {
@@ -38,7 +37,7 @@
         background-color: rgb(121, 56, 56);
         box-sizing: border-box;
         text-align: center;
-        margin: 10px 600px;
+        margin: 10px;
         border-radius: 1em;
         border: 4px inset rgb(47, 44, 44);
     }
